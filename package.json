@@ -1,0 +1,10 @@
+{
+  "name": "first-ts",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  }
+}
