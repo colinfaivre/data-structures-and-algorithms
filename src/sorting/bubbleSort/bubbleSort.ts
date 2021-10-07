@@ -7,7 +7,7 @@
     Compare to items next to each other in an array and swap them if necessary
 
     BigO:
-    best case    : O(n2) => Linear time
+    best case    : O(n) => Linear time
     worst case   : O(n2) => Quadratic time
     average case : O(n2) => Quadratic time
 

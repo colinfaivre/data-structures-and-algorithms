@@ -4,5 +4,8 @@
         "target": "ES2017", // Which level of JS support to target
         "module": "CommonJS"
     },
-    "include": ["src"] // Which files to compile
+    "include": ["src"],
+    "exclude": [
+        "**/*.spec.ts"
+    ]
 }
