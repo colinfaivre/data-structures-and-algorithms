@@ -1,5 +1,5 @@
 {
-  "name": "first-ts",
+  "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,8 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-typescript": "^7.15.0",
+    "@microsoft/api-documenter": "^7.13.63",
+    "@microsoft/api-extractor": "^7.18.16",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
