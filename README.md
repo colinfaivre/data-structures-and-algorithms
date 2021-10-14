@@ -11,3 +11,5 @@
 ## Searching algorithms
 
 * [Binary search](./src/searching/binarySearch/binarySearch)
+
+[Auto Generated Documentation (github pages)](https://colinfaivre.github.io/data-structures-and-algorithms/)
