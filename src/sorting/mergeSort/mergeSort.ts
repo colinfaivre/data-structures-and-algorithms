@@ -13,8 +13,7 @@ export function mergeSort(arrayToSort: number[]): number[] {
 function merge(left: number[], right: number[]): number[] {
     let i = 0;
     let j = 0;
-
-    const result = [];
+    const result: number[] = [];
 
     while (i < left.length && j < right.length) {
         result.push(left[i] < right[j] ? left[i++] : right[j++]);

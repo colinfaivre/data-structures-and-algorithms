@@ -1,10 +1,18 @@
 {
     "compilerOptions": {
-        "outDir": "dist", // Where to put the TS files
-        "target": "ES2017", // Which level of JS support to target
-        "module": "CommonJS"
+        "composite": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "target": "ES2018",
+        "module": "commonJS",
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "types": []
     },
-    "include": ["src"],
+    "include": ["src", "tests"],
     "exclude": [
         "**/*.spec.ts"
     ]

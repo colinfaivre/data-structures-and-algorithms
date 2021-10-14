@@ -1,5 +1,5 @@
 export function selectionSort(arrayToSort: number[]): number[] {
-    let indexMin;
+    let indexMin: number;
     
     for (let i = 0; i < arrayToSort.length - 1; i++) {
         indexMin = i;
