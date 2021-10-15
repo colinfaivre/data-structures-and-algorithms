@@ -3,6 +3,8 @@ import { insertionSort } from "../../sorting/insertionSort/insertionSort";
 /**
  * Search a number in an array of numbers
  * 
+ * Big O : O(logn)
+ *
  * @param arrayInWhichSearch 
  * @param valueToSearch 
  * @returns position of the searched number or -1 if it is not found

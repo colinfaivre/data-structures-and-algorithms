@@ -1,15 +1,13 @@
 # Algorithms and Data Structures
 
-## Sorting algorithms
+Generate documentation commands :
+```bash
+yarn api-extractor run
+```
 
-* [Bubble sort](./src/sorting/bubbleSort/bubbleSort)
-
-* [Insertion sort](./src/sorting/insertionSort/insertionSort)
-
-* [Selection sort](./src/sorting/selectionSort/selectionSort)
-
-## Searching algorithms
-
-* [Binary search](./src/searching/binarySearch/binarySearch)
+```bash
+yarn build
+yarn api-documenter markdown -i temp -o docs
+```
 
 [Auto Generated Documentation (github pages)](https://colinfaivre.github.io/data-structures-and-algorithms/)
