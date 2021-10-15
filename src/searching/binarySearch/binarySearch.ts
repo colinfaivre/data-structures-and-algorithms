@@ -1,4 +1,15 @@
-import { insertionSort } from "../../sorting/insertionSort/insertionSort";"../../sorting/insertionSort"
+import { insertionSort } from "../../sorting/insertionSort/insertionSort";
+
+/**
+ * Search a number in an array of numbers
+ * 
+ * @param arrayInWhichSearch 
+ * @param valueToSearch 
+ * @returns position of the searched number or -1 if it is not found
+ * 
+ * @example binarySearch(3)
+ * 
+ */
 
 export function binarySearch(
     arrayInWhichSearch: number[],

@@ -8,6 +8,7 @@
 
 |  Function | Description |
 |  --- | --- |
+|  [binarySearch(arrayInWhichSearch, valueToSearch)](./data-structures-and-algorithms.binarysearch.md) | Search a number in an array of numbers |
 |  [bubbleSort(arrayToSort)](./data-structures-and-algorithms.bubblesort.md) | <b><i>(BETA)</i></b> Sort an array of numbers in ascending order |
 |  [insertionSort(arrayToSort)](./data-structures-and-algorithms.insertionsort.md) |  |
 |  [mergeSort(arrayToSort)](./data-structures-and-algorithms.mergesort.md) |  |
