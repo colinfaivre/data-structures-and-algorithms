@@ -6,7 +6,9 @@
  * and then merge these smaller arrays into bigger ones until we have a single big aray at the end that is sorted.
  * Mozilla Firefox uses merge sort for the Array.prototype.sort method but Chrome uses a variation of the quick sort algorithm
  * 
- * BigO : O(nlogn)
+ * Time Complexity : O(nlogn)
+ * 
+ * Space Complexity : n 
  * 
  * @param arrayToSort 
  * @returns sorted array

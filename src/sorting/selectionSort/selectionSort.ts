@@ -5,8 +5,8 @@
  * The idea is to find the minimal value and place it in the first position
  * Then find the second minimum value and place it second, and so on...
  * 
- * BigO : O(n2)
- * Space Complexity : O(1)
+ * Time Complexity : O(n2)
+ * Space Complexity : O(1) - Constant
  * 
  * @param arrayToSort 
  * @returns sorted array

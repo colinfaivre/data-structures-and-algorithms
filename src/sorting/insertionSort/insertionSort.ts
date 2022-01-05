@@ -6,7 +6,7 @@
  * Then a comparison with the second value is performed
  * Should the second value stay in its place or be inserted before the first value ?
  * 
- * Big O : O(n2)
+ * Time Complexity : O(n2)
  * Spatial complexity : O(1)
  * 
  * @param arrayToSort 
