@@ -1,8 +1,12 @@
-import {insertionSort} from "./sorting/insertionSort/insertionSort";
+import {Tree} from "./trees/tree";
 
-const arrayToSort = new Array(10000).fill(0).map(() => Math.round(Math.random() * 10000))
+const myTree1 = new Tree(1);
+myTree1.insertChild(2);
+myTree1.insertChild(3);
+myTree1.removeChild(2);
+myTree1.insertChild(4);
 
-console.log(insertionSort(arrayToSort));
+console.log(myTree1);
 
 export {insertionSort} from "./sorting/insertionSort/insertionSort"
 export {selectionSort} from "./sorting/selectionSort/selectionSort"
