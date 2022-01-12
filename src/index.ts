@@ -1,12 +1,9 @@
-import {Tree} from "./trees/tree";
-
-const myTree1 = new Tree(1);
-myTree1.insertChild(2);
-myTree1.insertChild(3);
-myTree1.removeChild(2);
-myTree1.insertChild(4);
-
-console.log(myTree1);
+import { BinaryTree } from "./trees/tree";
+const myBinaryTree = new BinaryTree(4);
+console.log(myBinaryTree);
+myBinaryTree.traverse(console.log);
+console.log(myBinaryTree.contains(3));
+console.log(myBinaryTree.contains(4));
 
 export {insertionSort} from "./sorting/insertionSort/insertionSort"
 export {selectionSort} from "./sorting/selectionSort/selectionSort"
