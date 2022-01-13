@@ -22,7 +22,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
-    "test": "jest",
+    "test:unit": "jest",
     "lint": "eslint src --ext js,ts"
   }
 }

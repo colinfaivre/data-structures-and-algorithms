@@ -1,4 +1,4 @@
-import { Queue } from "./dataStructures/queue/Queue";
+import { Queue } from "./dataStructures/Queue";
 const myQueue = new Queue();
 myQueue.enqueue(456);
 myQueue.enqueue(3);
