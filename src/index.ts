@@ -1,4 +1,4 @@
-import { Queue } from "./queue/Queue";
+import { Queue } from "./dataStructures/queue/Queue";
 const myQueue = new Queue();
 myQueue.enqueue(456);
 myQueue.enqueue(3);
@@ -15,8 +15,8 @@ myQueue.dequeue();
 console.log(myQueue.peek())
 
 
-export {insertionSort} from "./sorting/insertionSort/insertionSort"
-export {selectionSort} from "./sorting/selectionSort/selectionSort"
-export {bubbleSort} from "./sorting/bubbleSort/bubbleSort"
-export {mergeSort} from "./sorting/mergeSort/mergeSort"
-export {binarySearch} from "./searching/binarySearch/binarySearch"
+export {insertionSort} from "./algorithms/sorting/insertionSort/insertionSort"
+export {selectionSort} from "./algorithms/sorting/selectionSort/selectionSort"
+export {bubbleSort} from "./algorithms/sorting/bubbleSort/bubbleSort"
+export {mergeSort} from "./algorithms/sorting/mergeSort/mergeSort"
+export {binarySearch} from "./algorithms/searching/binarySearch/binarySearch"
