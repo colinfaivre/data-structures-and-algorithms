@@ -4,7 +4,7 @@
  * Typical first one to do because it matches the human mental model of sorting
  * compare two items next to each other in an array and swap them if necessary
  * 
- * Time Complexity : O(n2)
+ * Time Complexity : O(n2) - Quadratic
  * Spatial Complexity : O(1)
  * 
  * @param arrayToSort - array to be sorted
